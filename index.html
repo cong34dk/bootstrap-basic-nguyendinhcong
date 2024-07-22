@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Link bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Link css -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-       <!-- navbar -->
+       <!-- begin navbar -->
        <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,24 +19,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-4">
                 <li class="nav-item">
-                    <a class="nav-link" data-value="about" href="#">About</a>
+                    <a class="nav-link" data-value="about" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
+                    <a class="nav-link" data-value="portfolio" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-value="blog" href="#">Blog</a>
+                    <a class="nav-link" data-value="blog" href="#blog">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-value="team" href="#">Team</a>
+                    <a class="nav-link" data-value="team" href="#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-value="contact" href="#">Contact</a>
+                    <a class="nav-link" data-value="contact" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
      </nav>
-     <!-- header -->
+     <!-- end navbar -->
+     <!-- begin header -->
       <header class="header">
         <div class="overlay"></div>
         <div class="container">
@@ -46,9 +49,199 @@
              </div>
         </div>
       </header>
-      <!-- about section -->
-       
+      <!-- end header -->
+      <!-- begin about section -->
+       <div class="about" id="about">
+        <div class="container">
+            <h1 class="text-center">About me</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img class="fluid" src="images/team-3.jpg" alt="">  
+                    <span class="text-justify">S.Web Developer</span>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 desc">
+                    <h3>D.John</h3>
+                    <p>
+                        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                     </p>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- end about section -->
+        <!-- begin portfolio -->
+         <div class="portfolio" id="portfolio">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/Classic.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/electric.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/port1.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/port11.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/port13.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/port3.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/port6.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/port7.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="images/portfolio/port8.png" alt="">
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- end portfolio -->
 
+         <!-- begin blog -->
+          <div class="blog" id="blog">
+            <h1 class="text-center">Blog</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-img">
+                                <img class="img-fluid" src="images/posts/imag2.jpg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Post Title</h4>
+                                <p class="card-text">
+                                    
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-img">
+                                <img class="img-fluid" src="images/posts/images.jpg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Post Title</h4>
+                                <p class="card-text">
+                                    
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-img">
+                                <img class="img-fluid" src="images/posts/polit.jpg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Post Title</h4>
+                                <p class="card-text">
+                                    
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- end blog -->
+
+          <!-- begin team -->
+           <div class="team" id="team">
+            <div class="container">
+                <h1 class="text-center">Our Team</h1>
+                <div class="row">
+                    <div class="team-element col-lg-3 col-md-3 col-sm-3">
+                        <img class="img-fluid" src="images/team-2.jpg" alt="">
+                        <div class="description">Sara</div>
+                        <span class="text-muted">Manager</span>
+                    </div>
+                    <div class="team-element col-lg-3 col-md-3 col-sm-3">
+                        <img class="img-fluid" src="images/team-3.jpg" alt="">
+                        <div class="description">Chris</div>
+                        <span class="text-muted">S.enginner</span>
+                    </div>
+                    <div class="team-element col-lg-3 col-md-3 col-sm-3">
+                        <img class="img-fluid" src="images/team-2.jpg" alt="">
+                        <div class="description">Layla</div>
+                        <span class="text-muted">Front End Developer</span>
+                    </div>
+                    <div class="team-element col-lg-3 col-md-3 col-sm-3">
+                        <img class="img-fluid" src="images/team-3.jpg" alt="">
+                        <div class="description">
+                            J.Jirard
+                        </div>
+                        <span class="text-muted">Team Manager</span>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <!-- end team -->
+
+           <!-- begin contact -->
+            <div class="contact" id="contact">
+                <div class="container">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <h1>Get in Touch</h1>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 right">
+                                <div class="form-group">
+                                    <input class="form-control form-control-lg" type="text" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control form-control-lg" type="email" placeholder="YourEmail@email.com">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control form-control-lg" name="" id=""></textarea>
+                                </div>
+                                <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end contact -->
+             <!-- begin footer -->
+              <footer class="footer mt-auto py-3">
+                <div class="container">
+                    <p class="text-center text-white-lead">
+                        Copyright © 
+                        <script type="text/javascript">document.write(new Date().getFullYear())</script>
+                        ABC Company
+                    </p>
+                </div>
+              </footer>
       <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
      <script type="text/javascript" src="js/main.js"></script>
 </body>
